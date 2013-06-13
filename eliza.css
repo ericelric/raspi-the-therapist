@@ -1,0 +1,64 @@
+body {
+  background-color: #7f9eb2;
+	}
+.background {
+	margin-left: auto; margin-right: auto; text-align: center;
+	margin-top: 25px;
+	height: 399px;
+	background-repeat:no-repeat;	
+}
+.headline {
+	margin-left: auto; margin-right: auto; text-align: center;
+	margin-top: 50px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900; 
+	font-size: 3.3em;
+	color: #d95972;
+}
+.middle {
+	margin-left: auto; margin-right: auto; text-align: center;
+	width: 100px;
+	height: 30px;
+}
+.textoutput {
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	color: #21ff16;
+	width: 290px;
+	height: 150px;
+	margin-top: -350px;
+	margin-left: -100px;
+}
+.playbutton {
+	margin-top: 270px;
+	margin-left: 132px;
+	width: 100px;
+	height: 30px;
+}
+.userinput {
+	width: 399px;
+	height: 42px;
+	margin-top: 0px;
+	margin-left: auto; margin-right: auto; text-align: center;
+	background-color: #b9ab88;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.userinput2 {
+	width: 399px;
+	height: 12px;
+	margin-top: 450px;
+	margin-left: auto; margin-right: auto; text-align: center;
+	background-color: #b9ab88;
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-top-left-radius: 10px;
+	border-top-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
