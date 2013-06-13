@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="generator" content="HTML Tidy for Linux (vers 25 March 2009), see www.w3.org">
+<title>Semesterarbeit "Raspi The Therapist"</title>
+<link rel="stylesheet" href="eliza.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,900italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+                function blinker(){
+                        document.getElementById("btnBlink").style.borderColor="green";
+                        setTimeout("document.getElementById('btnBlink').style.borderColor=''", 1000);
+                        setTimeout("blinker()",5000);
+                }
+
+                window.onload=blinker;
+</script>
+<style type="text/css">
+ input.c1 {width: 64px; height: 28px}
+</style>
+</head>
+<body>
+<div class="headline">Raspi The Therapist</div>
+<div class="background"><img src="pc.jpg" alt="Logo"></div>
+<div class="middle">
+<div class="textoutput">Thank's for playing. Raspberries with chocolate tastes sooooo good.</div>
+<div class="playbutton">
+<form name="myform" action="eliza.html" id="myform"><input type="submit" value="PLAY" id="btnBlink" class="c1"></form>
+</div>
+</div>
+</body>
+</html>
